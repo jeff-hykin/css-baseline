@@ -1,0 +1,43 @@
+// features:
+    // 1.0
+    // standard behavior (block/inline/font size/box sizing/scroll-behavior)
+    // 2.0
+    // standard body (full width, full height)
+    // standard spacing (no margin/padding)
+
+@import "./1.sass"
+
+// 
+// 
+// 2.0 rules
+// 
+// 
+
+// 
+// reset margin/padding/borders
+// 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, main
+    margin: 0
+    padding: 0
+    border: 0
+
+// 
+// remove margins from Firefox and Safari
+// 
+input, button, select, optgroup, textarea
+    margin: 0
+
+// 
+// make body spread over the full page
+// 
+body 
+    width: 100vw
+    min-height: 100vh
+    overflow: visible
+    scroll-behavior: auto
+
+//
+// by default only let text areas be resized vertically
+// 
+textarea
+    resize: vertical

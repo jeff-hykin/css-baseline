@@ -1,0 +1,21 @@
+{
+    "name": "css-baseline",
+    "version": "1.0.0",
+    "description": "A style sheet that should be included on every project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "sass sass/5.sass > css/5.css;sass sass/4.sass > css/4.css;sass sass/3.sass > css/3.css;sass sass/2.sass > css/2.css;sass sass/1.sass > css/1.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeff-hykin/css-baseline.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jeff-hykin/css-baseline/issues"
+    },
+    "homepage": "https://github.com/jeff-hykin/css-baseline#readme"
+}
