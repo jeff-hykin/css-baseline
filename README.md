@@ -4,7 +4,7 @@ This is a library that is designed to be an unopinionated standardization/normal
 The goal is that CSS baseline can be used as a foundation for all future web-dev projects regardless of anyone's project-specific styling needs.
 
 ## How do I use this?
-1. [quik] If you're just testing you can paste this in the <head> of your HTML file.<br>
+1. [quick] If you're just testing you can paste this in the <head> of your HTML file.<br>
 `<link rel="stylesheet" href="https://unpkg.com/css-baseline/css/4.css">`
 2. [better] You can also manually download the css file of version you want (see the `css` folder). Then just include it as the first style sheet in the <head> of your HTML file.
 3. [best] If you have a bundler in your project (e.g. Parcel.js, Webpack, Rollup.js) you can include this through npm.<br>
