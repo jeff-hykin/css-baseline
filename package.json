@@ -1,6 +1,6 @@
 {
     "name": "css-baseline",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A style sheet that should be included on every project",
     "main": "index.js",
     "scripts": {

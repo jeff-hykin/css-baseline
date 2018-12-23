@@ -270,7 +270,7 @@ body {
 
 button, input[type=button], input[type=submit], input[type=reset] {
   all: unset;
-  height: fit-content;
+  height: auto;
   border: 1pt solid #bebebe;
   background: white;
   color: black;
