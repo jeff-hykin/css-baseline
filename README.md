@@ -1,7 +1,14 @@
 # What is css-baseline?
-It is a library that is designed to be an unopinionated standardization/normalization of CSS defaults across browsers, especially including fixing edge-case bugs/behaviors (*cough* *cough* IE 9,10,11 *cough* *cough*). There are no CSS-classes in this library since it is strictly for setting defaults. The code in general is indended to be used with other style sheets / CSS frameworks.<br>
+This is a library that is designed to be an unopinionated standardization/normalization of CSS defaults across browsers, especially including fixing edge-case bugs/behaviors (*cough* *cough* IE 9,10,11 *cough* *cough*). There are no CSS-classes in this library since it is strictly for setting defaults. The code in general is indended to be used with other style sheets / CSS frameworks.<br>
 <br>
 The goal is that CSS baseline can be used as a foundation for all future web-dev projects regardless of anyone's project-specific styling needs.
+
+## How do I use this?
+1. [quick] If you're just testing you can paste this in the \<head> of your HTML file.<br>
+`<link rel="stylesheet" href="https://unpkg.com/css-baseline/css/4.css">`
+2. [better] You can also manually download the css file of version you want (see the `css` folder). Then just include it as the first style sheet in the \<head> of your HTML file.
+3. [best] If you have a bundler in your project (e.g. Parcel.js, Webpack, Rollup.js) you can include this through npm.<br>
+Ex: In your main/first javascript file you can likely put `require("css-baseline/css/5")` or your bundler may have some other way of including css files from NPM.
 
 ## Why are their 4 versions?
 The versions are a gage of how 'standardized' you'd prefer to start off being.<br>
