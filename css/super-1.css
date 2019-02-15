@@ -326,6 +326,18 @@ textarea:invalid, input:invalid {
   color: gray;
 }
 
-* {
-  transition: all 0.3s ease-out;
+body {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
 }
