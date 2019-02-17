@@ -328,6 +328,7 @@ textarea:invalid, input:invalid {
 
 body {
     display: flex;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     text-align: center;
