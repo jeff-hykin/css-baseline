@@ -327,6 +327,7 @@ textarea:invalid, input:invalid {
 }
 
 body {
+    display: flex;
     align-content: center;
     align-items: center;
     text-align: center;
