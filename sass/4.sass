@@ -31,10 +31,10 @@ button, input[type="button"], input[type="submit"], input[type="reset"]
     height: auto
     border: 1pt solid rgb(190, 190, 190)
     background: white
+    -webkit-text-fill-color: unset
     color: black
-    -webkit-text-fill-color: black
     padding: 0.3rem 0.6rem
-    box-shadow: 0px 3px 5px -1px #00000038
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2196078431372549)
     border-radius: 8px
     cursor: pointer
     transition: all 0.3s ease-out
@@ -44,7 +44,7 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type
     background: lightgray
 
 button:active, input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active
-    box-shadow: 0px 0px 0px -1px #00000038
+    box-shadow: 0px 0px 0px -1px rgba(0,0,0,0.2196078431372549)
     background: white
 
 // add outline using box shadow when tabbing through options
@@ -54,8 +54,8 @@ button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type
     background: white
 
 button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled, input[type="reset"]:disabled
+    -webkit-text-fill-color: unset
     color: gray
-    -webkit-text-fill-color: gray
 
 
 // 
