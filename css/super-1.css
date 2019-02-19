@@ -215,11 +215,9 @@ body {
   font-family: sans-serif; }
 
 button, input[type="button"], input[type="submit"], input[type="reset"] {
-  all: unset;
   height: auto;
   border: 1pt solid #bebebe;
   background: white;
-  -webkit-text-fill-color: unset;
   color: black;
   padding: 0.3rem 0.6rem;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2196078431);
@@ -241,7 +239,6 @@ button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type
   background: white; }
 
 button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled, input[type="reset"]:disabled {
-  -webkit-text-fill-color: unset;
   color: gray; }
 
 textarea, input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):not([type="color"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not(:invalid) {
