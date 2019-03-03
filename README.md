@@ -8,7 +8,7 @@ The goal is that CSS baseline can be used as a foundation for all future web-dev
 `<link rel="stylesheet" href="https://unpkg.com/css-baseline/css/4.css">`
 2. [better] You can also manually download the css file of version you want (see the `css` folder). Then just include it as the first style sheet in the \<head> of your HTML file.
 3. [best] If you have a bundler in your project (e.g. Parcel.js, Webpack, Rollup.js) you can include this through npm.<br>
-Ex: In your main/first javascript file you can likely put `require("css-baseline/css/5")` or your bundler may have some other way of including css files from NPM.
+Ex: In your main/first javascript file you can likely put `require("css-baseline/css/4")` or your bundler may have some other way of including css files from NPM.
 
 ## Why are their 4 versions?
 The versions are a gage of how 'standardized' you'd prefer to start off being.<br>
