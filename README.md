@@ -13,10 +13,10 @@ The goal is that CSS baseline can be used as a foundation for all future web-dev
 
 ## How do I use this?
 Make sure you include this CSS __before__ any other style sheets: this lets other libraries override css-baseline
-1. [quick way] If you're just testing you can paste this in the \<head> of your HTML file.<br>
+1. __[quick way]__ If you're just testing you can paste this in the \<head> of your HTML file.<br>
 `<link rel="stylesheet" href="https://unpkg.com/css-baseline/css/2.css">`
-2. [better way] You can also manually download the CSS file of version you want (see the `css` folder). Then just include it as the first style sheet in the \<head> of your HTML file.
-3. [best way] If you have a bundler in your project (e.g. Parcel.js, Webpack, Rollup.js) you can include this through npm.<br>
+2. __[better way]__ You can also manually download the CSS file of version you want (see the `css` folder). Then just include it as the first style sheet in the \<head> of your HTML file.
+3. __[best way]__ If you have a bundler in your project (e.g. Parcel.js, Webpack, Rollup.js) you can include this through npm.<br>
 Ex: In your main/first javascript file you can likely put `require("css-baseline/css/2")` or `import "css-baseline/css/2"`. Your bundler may have some other way of including CSS files from NPM.
 
 ## Why are their 4 versions?
@@ -25,7 +25,9 @@ Versions:
 2. Standardize the spacing of elements (and everything from #1)
 3. Standardize font sizing (and everything from #1 and #2)
 4. Standardize the look of buttons and text-input fields (and everything from #1, #2, and #3)
+<br>
 Sometimes CSS frameworks (like Bootstrap or Tailwind) expect non-normalized code, so if you want to be on the safe side: go with version 1. Ex: `import "css-baseline/css/1"`
+<br>
 If you're starting a fresh project and mostly styling things yourself, I would recommend version 4. Ex: `import "css-baseline/css/4"`
 
 ## Is this going to be updated?
