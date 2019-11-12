@@ -1,6 +1,6 @@
 {
     "name": "css-baseline",
-    "version": "1.1.9",
+    "version": "1.1.10",
     "description": "A style sheet that should be included on every project",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,13 @@
         "type": "git",
         "url": "git+https://github.com/jeff-hykin/css-baseline.git"
     },
-    "keywords": [],
+    "keywords": [
+        "css",
+        "baseline",
+        "reset",
+        "normalize",
+        "standardize"
+    ],
     "author": "",
     "license": "ISC",
     "bugs": {
