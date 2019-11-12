@@ -12,6 +12,7 @@ Browers come with different default CSS styles, this library tries provide a com
 The goal is that CSS baseline can be used as a foundation for all future web-dev projects regardless of anyone's project-specific styling needs.
 
 ## How do I use this?
+Make sure you include this CSS __before__ any other style sheets: this lets other libraries override css-baseline
 1. [quick way] If you're just testing you can paste this in the \<head> of your HTML file.<br>
 `<link rel="stylesheet" href="https://unpkg.com/css-baseline/css/2.css">`
 2. [better way] You can also manually download the CSS file of version you want (see the `css` folder). Then just include it as the first style sheet in the \<head> of your HTML file.
