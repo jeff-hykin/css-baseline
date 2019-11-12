@@ -24,6 +24,28 @@
 //
 
 // 
+// Standard input box
+// 
+textarea, input
+    border: 1px lightgray solid
+    padding: 2px
+    outline: none
+    
+    &:focus
+        outline: none
+    
+    &:disabled
+        color: gray
+        background-color: lightgray
+
+// red underline for invalid
+*:invalid
+    border-bottom: red solid 2px
+    padding-bottom: 1px
+    color: gray    
+    
+
+// 
 // Standard Button
 // 
 button, input[type="button"], input[type="submit"], input[type="reset"]
@@ -37,41 +59,15 @@ button, input[type="button"], input[type="submit"], input[type="reset"]
     cursor: pointer
     transition: all 0.3s ease-out
     outline: none
-
-button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover
-    background: lightgray
-
-button:active, input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active
-    box-shadow: 0px 0px 0px -1px rgba(0,0,0,0.2196078431372549)
-    background: initial
-
-// add outline using box shadow when tabbing through options
-button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus
-    outline: none
-    box-shadow: 0px 0px 0px 2px rgb(167, 204, 249)
-
-button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled, input[type="reset"]:disabled
-    color: gray
-
-
-// 
-// Standard input box
-// 
-textarea, input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):not([type="color"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not(:invalid)
-    border: 1px lightgray solid
-    padding: 2px
-    outline: none
-
-textarea:focus, input:focus 
-    outline: none
-
-textarea:disabled, input:disabled 
-    color: gray
-    background-color: lightgray
-
-textarea:invalid, input:invalid
-    border: 1px lightgray solid
-    padding: 2px
-    border-bottom: red solid 2px
-    padding-bottom: 1px
-    color: gray
+    
+    &:hover
+        background: lightgray
+    &:active
+        box-shadow: 0px 0px 0px -1px rgba(0,0,0,0.2196078431372549)
+        background: initial
+    // add outline using box shadow when tabbing through options
+    &:focus
+        outline: none
+        box-shadow: 0px 0px 0px 2px rgb(167, 204, 249)
+    &:disabled
+        color: gray
