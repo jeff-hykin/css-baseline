@@ -6,7 +6,7 @@ This library combines the following:
 
 This library adds standardizations onto the above
 
-# What is css-baseline?
+## What is css-baseline?
 Browers come with different default CSS styles, this library tries to provide a common style starting point so that html appears and behaves the same in all browsers. It is especially geared towards fixing edge-case bugs/behaviors (*cough* *cough* IE 9,10,11 *cough* *cough*). There are no CSS-classes since it this is intended to be used with other style sheets / CSS frameworks.<br>
 <br>
 The goal is that CSS baseline can be used as a foundation for all future web-dev projects regardless of anyone's project-specific styling needs.
