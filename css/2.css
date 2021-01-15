@@ -239,3 +239,9 @@ body {
 textarea {
   resize: vertical;
 }
+
+br {
+  display: block;
+  content: "";
+  border-bottom: 0px solid transparent;
+}

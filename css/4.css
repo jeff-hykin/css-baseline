@@ -240,6 +240,12 @@ textarea {
   resize: vertical;
 }
 
+br {
+  display: block;
+  content: "";
+  border-bottom: 0px solid transparent;
+}
+
 h1 {
   font-size: 3.78rem;
 }
