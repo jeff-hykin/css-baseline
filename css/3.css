@@ -240,32 +240,36 @@ textarea {
   resize: vertical;
 }
 
+br {
+  display: block;
+  content: "";
+  border-bottom: 0px solid transparent;
+}
+
 h1 {
-  font-size: 4.84rem;
+  font-size: 3.78rem;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 3.204rem;
 }
 
 h3 {
-  font-size: 3.56rem;
+  font-size: 2.628rem;
 }
 
 h4 {
-  font-size: 2.92rem;
+  font-size: 2.052rem;
 }
 
 h5 {
-  font-size: 2.28rem;
+  font-size: 1.476rem;
 }
 
 h6 {
-  font-size: 1.64rem;
+  font-size: 1.15rem;
 }
 
 body {
   font-family: sans-serif;
 }
-
-/*# sourceMappingURL=3.css.map */

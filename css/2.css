@@ -240,4 +240,8 @@ textarea {
   resize: vertical;
 }
 
-/*# sourceMappingURL=2.css.map */
+br {
+  display: block;
+  content: "";
+  border-bottom: 0px solid transparent;
+}
