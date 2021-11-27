@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+if [ -z "$FORNIX_FOLDER" ]
+then
+    FORNIX_FOLDER="$PWD"
+fi
 
 # compile
 sass "$FORNIX_FOLDER/sass/"

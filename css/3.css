@@ -274,4 +274,8 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  image-rendering: crisp-edges;
+}
+
 /*# sourceMappingURL=3.css.map */

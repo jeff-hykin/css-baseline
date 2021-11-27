@@ -274,6 +274,10 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  image-rendering: crisp-edges;
+}
+
 textarea, input {
   border: 1px lightgray solid;
   padding: 2px;
