@@ -240,32 +240,57 @@ textarea {
   resize: vertical;
 }
 
+br {
+  display: block;
+  content: "";
+  border-bottom: 0px solid transparent;
+}
+
 h1 {
-  font-size: 4.84rem;
+  font-size: 3.78rem;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 3.204rem;
 }
 
 h3 {
-  font-size: 3.56rem;
+  font-size: 2.628rem;
 }
 
 h4 {
-  font-size: 2.92rem;
+  font-size: 2.052rem;
 }
 
 h5 {
-  font-size: 2.28rem;
+  font-size: 1.476rem;
 }
 
 h6 {
-  font-size: 1.64rem;
+  font-size: 1.15rem;
 }
 
 body {
   font-family: sans-serif;
+}
+
+textarea, input {
+  border: 1px lightgray solid;
+  padding: 2px;
+  outline: none;
+}
+textarea:focus, input:focus {
+  outline: none;
+}
+textarea:disabled, input:disabled {
+  color: gray;
+  background-color: lightgray;
+}
+
+*:invalid {
+  border-bottom: red solid 2px;
+  padding-bottom: 1px;
+  color: gray;
 }
 
 button, input[type=button], input[type=submit], input[type=reset] {
@@ -280,45 +305,18 @@ button, input[type=button], input[type=submit], input[type=reset] {
   transition: all 0.3s ease-out;
   outline: none;
 }
-
 button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background: lightgray;
 }
-
 button:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
   box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 0.2196078431);
   background: initial;
 }
-
 button:focus, input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
   outline: none;
   box-shadow: 0px 0px 0px 2px #a7ccf9;
 }
-
 button:disabled, input[type=button]:disabled, input[type=submit]:disabled, input[type=reset]:disabled {
-  color: gray;
-}
-
-textarea, input:not([type=radio]):not([type=checkbox]):not([type=button]):not([type=color]):not([type=range]):not([type=submit]):not([type=reset]):not(:invalid) {
-  border: 1px lightgray solid;
-  padding: 2px;
-  outline: none;
-}
-
-textarea:focus, input:focus {
-  outline: none;
-}
-
-textarea:disabled, input:disabled {
-  color: gray;
-  background-color: lightgray;
-}
-
-textarea:invalid, input:invalid {
-  border: 1px lightgray solid;
-  padding: 2px;
-  border-bottom: red solid 2px;
-  padding-bottom: 1px;
   color: gray;
 }
 
