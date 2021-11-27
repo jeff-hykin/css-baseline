@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# compile
+sass "$FORNIX_FOLDER/sass/"
+# move
+mv "$FORNIX_FOLDER/sass"/*.css ./css
+mv "$FORNIX_FOLDER/sass"/*.map ./css
