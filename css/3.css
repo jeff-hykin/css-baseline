@@ -247,19 +247,19 @@ br {
 }
 
 h1 {
-  font-size: 3.78rem;
+  font-size: 2.78rem;
 }
 
 h2 {
-  font-size: 3.204rem;
+  font-size: 2.454rem;
 }
 
 h3 {
-  font-size: 2.628rem;
+  font-size: 2.128rem;
 }
 
 h4 {
-  font-size: 2.052rem;
+  font-size: 1.802rem;
 }
 
 h5 {
@@ -272,4 +272,27 @@ h6 {
 
 body {
   font-family: sans-serif;
+}
+
+:root {
+  --css-baseline-scrollbar-background: lightgray;
+  --css-baseline-scrollbar-foreground: dimgray;
+}
+
+* {
+  scrollbar-color: var(--css-baseline-scrollbar-foreground) var(--css-baseline-scrollbar-background);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--css-baseline-scrollbar-background);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--css-baseline-scrollbar-foreground);
+  border: 2px solid var(--css-baseline-scrollbar-background);
+  border-radius: 20px;
 }
