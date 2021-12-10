@@ -23,7 +23,7 @@ Ex: In your main/first javascript file you can likely put `require("css-baseline
 Versions:
 1. Only include critical fixes
 2. Standardize the spacing of elements (and everything from #1)
-3. Standardize font sizing (and everything from #1 and #2)
+3. Standardize font sizing and scroll bars (and everything from #1 and #2)
 4. Standardize the look of buttons and text-input fields (and everything from #1, #2, and #3)
 
 ## Is this going to be updated?
